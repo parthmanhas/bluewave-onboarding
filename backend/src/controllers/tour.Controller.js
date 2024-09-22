@@ -1,3 +1,4 @@
+const { Op } = require("sequelize");
 const Tour = require("../models").Tour;
 const { internalServerError } = require("../utils/errors");
 
